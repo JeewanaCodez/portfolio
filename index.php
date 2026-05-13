@@ -52,15 +52,15 @@
 
             <div class="social-icons">
 
-                <a href="#">
+                <a href="https://github.com/JeewanaCodez">
                     <i class="fab fa-github"></i>
                 </a>
 
-                <a href="#">
+                <a href="https://www.linkedin.com/in/jeewana-navarathna">
                     <i class="fab fa-linkedin"></i>
                 </a>
 
-                <a href="#">
+                <a href="https://www.facebook.com/share/1CrE9x2tZE/?mibextid=wwXIfr">
                     <i class="fab fa-facebook"></i>
                 </a>
 
