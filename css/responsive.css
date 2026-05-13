@@ -1,7 +1,52 @@
+@media(max-width:992px){
+
+    .hero-container{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+    }
+
+    .social-icons{
+
+        justify-content:center;
+    }
+
+    .hero-name{
+
+        font-size:60px;
+    }
+
+    .hero-role{
+
+        font-size:32px;
+    }
+
+}
+
 @media(max-width:768px){
 
     .nav-links{
         display:none;
+    }
+
+    .hero-name{
+        font-size:45px;
+    }
+
+    .hero-role{
+        font-size:26px;
+    }
+
+    .hero-image img{
+
+        width:260px;
+        height:260px;
     }
 
 }

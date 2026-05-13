@@ -1,21 +1,23 @@
-    <!-- FOOTER -->
+<!-- FOOTER -->
 
-    <footer>
+<footer>
 
-        <div class="container">
+    <div class="container">
 
-            <p>© 2026 Jeewana Portfolio. All Rights Reserved.</p>
+        <p>
+            © 2026 Jeewana Portfolio.
+            All Rights Reserved.
+        </p>
 
-        </div>
+    </div>
 
-    </footer>
+</footer>
 
-    <!-- JS -->
+<!-- JS -->
 
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 
-    <script src="js/animations.js"></script>
+<script src="js/animations.js"></script>
 
 </body>
-
 </html>
