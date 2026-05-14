@@ -4,17 +4,36 @@
 
     <div class="container">
 
-        <h1 class="section-title">Contact Me</h1>
+        <h1 class="section-title">
+            Contact Me
+        </h1>
 
-        <form class="contact-form">
+        <form class="contact-form"
+              action="send-message.php"
+              method="POST">
 
-            <input type="text" placeholder="Your Name">
+            <input type="text"
+                   name="name"
+                   placeholder="Your Name"
+                   required>
 
-            <input type="email" placeholder="Your Email">
+            <input type="email"
+                   name="email"
+                   placeholder="Your Email"
+                   required>
 
-            <textarea rows="6" placeholder="Your Message"></textarea>
+            <textarea name="message"
+                      rows="6"
+                      placeholder="Your Message"
+                      required></textarea>
 
-            <button type="submit" class="btn">Send Message</button>
+            <button type="submit"
+                    name="send"
+                    class="btn">
+
+                Send Message
+
+            </button>
 
         </form>
 

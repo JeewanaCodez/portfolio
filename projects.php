@@ -4,24 +4,24 @@
 
     <div class="container">
 
-        <h1 class="section-title">My Projects</h1>
+        <h1 class="section-title">
+            My Projects
+        </h1>
 
         <!-- PROJECT 1 -->
 
         <div class="project-section fade-in">
 
-            <div class="project-image">
-                <img src="images/projects/eco-guardian.jpg" alt="Eco Guardian">
-            </div>
+            <!-- PROJECT INFO -->
 
-            <div class="project-content-box">
+            <div class="project-details">
 
-                <h2>WEB BASED ECO GUARDIAN SYSTEM FOR  MINISTRY OF ENVIRONMENT</h2>
+                <h2>Eco Guardian</h2>
 
                 <p>
-                    A web-based environmental reporting system that allows users
-                    to report environmental violations and participate in sustainability activities.
-
+                    Eco Guardian is an environmental reporting platform
+                    that allows users to report environmental violations
+                    and participate in sustainability activities.
                 </p>
                 <p> 
                     🎯 Aim: To empower citizens to report environmental violations, participate in eco-friendly activities, and earn rewards while supporting sustainability.
@@ -46,6 +46,7 @@
                     🛠 Built using React, PHP, MySQL, REST APIs, Stripe & SMTP.   
             </p>
 
+
                 <div class="project-tags">
 
                     <span>HTML</span>
@@ -56,7 +57,27 @@
 
                 </div>
 
-                <a href="#" class="btn">View Project</a>
+            </div>
+
+            <!-- PROJECT GALLERY -->
+
+            <div class="project-gallery">
+
+                <a href="images/projects/eco1.jpg" target="_blank">
+                    <img src="images/projects/home.png" alt="">
+                </a>
+
+                <a href="images/projects/eco2.jpg" target="_blank">
+                    <img src="images/projects/report.png" alt="">
+                </a>
+
+                <a href="images/projects/eco3.jpg" target="_blank">
+                    <img src="images/projects/missions.png" alt="">
+                </a>
+
+                <a href="images/projects/eco4.jpg" target="_blank">
+                    <img src="images/projects/market.png" alt="">
+                </a>
 
             </div>
 
@@ -66,20 +87,16 @@
 
         <div class="project-section fade-in">
 
-            <div class="project-image">
-                <img src="images/projects/travel-buddy.jpg" alt="Travel Buddy">
-            </div>
-            
-
-            <div class="project-content-box">
+            <div class="project-details">
 
                 <h2>ELEGANCE – Online Fashion Store</h2>
 
                 <p>
-                    ELEGANCE is a fully functional, database-driven online fashion store designed to deliver a smooth and modern shopping experience.
-                </p>
+                    ELEGANCE is a fully functional, database-driven online fashion store designed to deliver 
+                    a smooth and modern shopping experience.
 
-                <p>
+                </p>
+                 <p>
                  🔹 Key Features: <br>
 
                     💡Dynamic Product Display <br>
@@ -98,6 +115,7 @@
                     🛠 Built using React, PHP, MySQL, REST APIs.   
             </p>
 
+
                 <div class="project-tags">
 
                     <span>React</span>
@@ -107,7 +125,87 @@
 
                 </div>
 
-                <a href="#" class="btn">View Project</a>
+            </div>
+
+            <div class="project-gallery">
+
+                <a href="images/projects/travel1.jpg" target="_blank">
+                    <img src="images/projects/home.jpeg" alt="">
+                </a>
+
+                <a href="images/projects/travel2.jpg" target="_blank">
+                    <img src="images/projects/dress.jpeg" alt="">
+                </a>
+
+                <a href="images/projects/travel3.jpg" target="_blank">
+                    <img src="images/projects/place.jpeg" alt="">
+                </a>
+
+                <a href="images/projects/travel4.jpg" target="_blank">
+                    <img src="images/projects/profile.jpeg" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- PROJECT 3 -->
+
+        <div class="project-section fade-in">
+
+            <div class="project-details">
+
+                <h2>Vehicle Wash Management System (C# | SQL server | Windows Forms )</h2>
+
+                <p>
+                    The project focuses on automating day-to-day operations of a vehicle wash and spare-parts business. 
+                    The existing manual system used books to store customer information, payment records, and spare-parts details.
+                    This led to issues like data loss, difficulty retrieving records, and time-consuming calculations.
+
+                </p>
+                 <p>
+                 🔹 Key Features: <br>
+
+                    💡User Login Management <br>
+
+                    💡Customer Registration <br>
+
+                    💡Product (Spare Parts) Management <br>
+
+                    💡Payment & Billing Management <br>
+
+                    
+                    🛠 Built using C#  
+            </p>
+
+
+                <div class="project-tags">
+
+                    <span>C#</span>
+                    <span>SQL Server</span>
+                    <span>Windows Forms</span>
+
+                </div>
+
+            </div>
+
+            <div class="project-gallery">
+
+                <a href="images/projects/travel1.jpg" target="_blank">
+                    <img src="images/projects/H.jpeg" alt="">
+                </a>
+
+                <a href="images/projects/travel2.jpg" target="_blank">
+                    <img src="images/projects/customer.jpeg" alt="">
+                </a>
+
+                <a href="images/projects/travel3.jpg" target="_blank">
+                    <img src="images/projects/service.jpeg" alt="">
+                </a>
+
+                <a href="images/projects/travel4.jpg" target="_blank">
+                    <img src="images/projects/payment.jpeg" alt="">
+                </a>
 
             </div>
 
