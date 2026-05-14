@@ -43,7 +43,7 @@
 
             <li><a href="certificates.html">Certificates</a></li>
 
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
         </ul>
 
@@ -60,7 +60,7 @@
         </h1>
 
         <form class="contact-form"
-      action="send-message.php"
+      action="https://formsubmit.co/jeewanakaushalya8@gmail.com"
       method="POST"
       data-aos="fade-up">
 
@@ -79,8 +79,19 @@
               placeholder="Your Message"
               required></textarea>
 
+    <!-- DISABLE CAPTCHA -->
+
+    <input type="hidden"
+           name="_captcha"
+           value="false">
+
+    <!-- SUCCESS PAGE -->
+
+    <input type="hidden"
+           name="_next"
+           value="https://JeewanaCodez.github.io/portfolio/contact.html">
+
     <button type="submit"
-            name="send"
             class="btn">
 
         Send Message
