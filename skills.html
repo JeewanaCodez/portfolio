@@ -1,4 +1,55 @@
-<?php include 'includes/header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Skills - Jeewana Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="container nav-container">
+
+        <h2 class="logo">Portfolio</h2>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="skills.html">Skills</a></li>
+
+            <li><a href="projects.html">Projects</a></li>
+
+            <li><a href="certificates.html">Certificates</a></li>
+
+            <li><a href="contact.php">Contact</a></li>
+
+        </ul>
+
+    </div>
+
+</nav>
 
 <section class="page skills-page">
 
@@ -10,7 +61,8 @@
 
         <!-- FRONTEND -->
 
-        <div class="skills-category">
+        <div class="skills-category"
+             data-aos="fade-up">
 
             <h2>Frontend Development</h2>
 
@@ -42,7 +94,8 @@
 
         <!-- BACKEND -->
 
-        <div class="skills-category">
+        <div class="skills-category"
+             data-aos="fade-up">
 
             <h2>Backend Development</h2>
 
@@ -64,7 +117,8 @@
 
         <!-- TOOLS -->
 
-        <div class="skills-category">
+        <div class="skills-category"
+             data-aos="fade-up">
 
             <h2>Tools & Other Skills</h2>
 
@@ -98,4 +152,32 @@
 
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<footer class="footer">
+
+    <div class="container">
+
+        <p>
+            © 2026 Jeewana Portfolio. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+
+    duration:1200,
+    once:true
+
+});
+
+</script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

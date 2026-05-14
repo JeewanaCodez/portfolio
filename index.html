@@ -1,16 +1,75 @@
-<?php include 'includes/header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Jeewana Portfolio</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- GOOGLE FONT -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS -->
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <div class="container nav-container">
+
+        <h2 class="logo">Portfolio</h2>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="skills.html">Skills</a></li>
+
+            <li><a href="projects.html">Projects</a></li>
+
+            <li><a href="certificates.html">Certificates</a></li>
+
+            <li><a href="contact.php">Contact</a></li>
+
+        </ul>
+
+    </div>
+
+</nav>
 
 <!-- HERO SECTION -->
 
 <section class="hero">
 
-    <!-- BACKGROUND GLOW -->
-
     <div class="hero-glow"></div>
 
     <div class="container hero-container">
 
-        <!-- LEFT CONTENT -->
+        <!-- LEFT -->
 
         <div class="hero-content"
              data-aos="fade-right">
@@ -22,12 +81,6 @@
             <h1 class="hero-name">
                 Jeewana Navarathna
             </h1>
-            <h2 class="hero-role">
-                Web Developer & UI/UX Designer
-            </h2>
-
-
-            <!-- TYPING ANIMATION -->
 
             <h2 class="hero-role">
                 <span class="typing"></span>
@@ -49,7 +102,7 @@
 
             <div class="hero-buttons">
 
-                <a href="projects.php"
+                <a href="projects.html"
                    class="btn">
 
                     View Projects
@@ -66,7 +119,7 @@
 
             </div>
 
-            <!-- SOCIAL ICONS -->
+            <!-- SOCIAL -->
 
             <div class="social-icons">
 
@@ -101,13 +154,13 @@
 
         </div>
 
-        <!-- RIGHT IMAGE -->
+        <!-- RIGHT -->
 
         <div class="hero-image"
              data-aos="fade-left">
 
             <img src="images/profile/profile.jpeg"
-                 alt="Jeewana Profile">
+                 alt="profile">
 
         </div>
 
@@ -115,4 +168,38 @@
 
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <p>
+            © 2026 Jeewana Portfolio. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- AOS -->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+
+    duration:1200,
+    once:true
+
+});
+
+</script>
+
+<!-- JS -->
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
